@@ -2,7 +2,7 @@
  * Created by User on 7/9/2017.
  */
 import React, {Component} from 'react';
-
+import Accounts from './accounts';
 class Header extends Component
 {
     render(){
@@ -13,7 +13,7 @@ class Header extends Component
             </div>
              <ul className="nav navbar-nav">
                  <li>
-                     <a>Sign up</a>
+                     <a><Accounts/></a>
                  </li>
                  <li>
                      <a>Create Bin</a>
