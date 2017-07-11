@@ -3,7 +3,6 @@ accounts-password@1.3.7
 accounts-ui@1.1.9
 accounts-ui-unstyled@1.2.1
 allow-deny@1.0.5
-autopublish@1.0.7
 autoupdate@1.3.12
 babel-compiler@6.19.3
 babel-runtime@1.0.1
@@ -71,6 +70,7 @@ retry@1.0.9
 routepolicy@1.0.12
 service-configuration@1.0.11
 session@1.1.7
+sgslo:cmstyle@0.0.1
 sha@1.0.9
 shell-server@0.2.3
 spacebars@1.0.15

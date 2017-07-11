@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a01c59-14c8-4d7e-b503-e1368efd4d76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/accounts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/collections/bins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/binmarker.iml" afterPath="$PROJECT_DIR$/.idea/binmarker.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/bins/bins_editor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/bins/bins_list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/bins/bins_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/bins/bins_share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/bins/bins_viewer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/app.js" afterPath="$PROJECT_DIR$/client/components/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/header.js" afterPath="$PROJECT_DIR$/client/components/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.css" afterPath="$PROJECT_DIR$/client/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/collections/bins.js" afterPath="$PROJECT_DIR$/imports/collections/bins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/main.js" afterPath="$PROJECT_DIR$/server/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,22 +33,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,11 +48,70 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="289">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#40#66#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bins_main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/bins/bins_main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding>
+                <element signature="e#41#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bins_editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/bins/bins_editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#41#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bins_viewer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/bins/bins_viewer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="e#41#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bins_list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/bins/bins_list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#41#80#0" expanded="true" />
+                <marker date="1499739315670" expanded="true" signature="607:802" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/collections/bins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,34 +119,15 @@
       <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/components/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="499">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding>
                 <element signature="e#40#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/components/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#40#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accounts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/components/accounts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding>
-                <element signature="e#40#79#0" expanded="true" />
+                <marker date="1499733790801" expanded="true" signature="484:911" ph="..." />
+                <marker date="1499733790801" expanded="true" signature="528:616" ph="..." />
+                <marker date="1499733790801" expanded="true" signature="661:895" ph="..." />
+                <marker date="1499733790801" expanded="true" signature="683:746" ph="..." />
+                <marker date="1499733790801" expanded="true" signature="768:876" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,18 +136,18 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="385">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bins.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imports/collections/bins.js">
+      <file leaf-file-name="bins_share.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/bins/bins_share.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -134,12 +171,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/client/main.html" />
-        <option value="$PROJECT_DIR$/client/main.js" />
-        <option value="$PROJECT_DIR$/client/components/app.js" />
-        <option value="$PROJECT_DIR$/client/components/header.js" />
-        <option value="$PROJECT_DIR$/client/main.css" />
         <option value="$PROJECT_DIR$/client/components/accounts.js" />
+        <option value="$PROJECT_DIR$/client/components/app.js" />
+        <option value="$PROJECT_DIR$/client/main.js" />
+        <option value="$PROJECT_DIR$/client/components/header.js" />
+        <option value="$PROJECT_DIR$/client/components/bins/bins_editor.js" />
+        <option value="$PROJECT_DIR$/client/components/bins/bins_viewer.js" />
         <option value="$PROJECT_DIR$/imports/collections/bins.js" />
+        <option value="$PROJECT_DIR$/client/components/bins/bins_share.js" />
+        <option value="$PROJECT_DIR$/client/main.css" />
+        <option value="$PROJECT_DIR$/server/main.js" />
+        <option value="$PROJECT_DIR$/client/components/bins/bins_list.js" />
+        <option value="$PROJECT_DIR$/client/components/bins/bins_main.js" />
       </list>
     </option>
   </component>
@@ -252,6 +295,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binmarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binmarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -266,6 +331,7 @@
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="bin&#9;FILE&#9;file://C:/Projects/binmarker/client/components/bins/bins_main.js&#10;main&#9;FILE&#9;file://C:/Projects/binmarker/server/main.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -398,6 +464,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c9a01c59-14c8-4d7e-b503-e1368efd4d76" name="Default" comment="" />
@@ -405,12 +474,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499654741027</updated>
-      <workItem from="1499654743199" duration="4872000" />
+      <workItem from="1499654743199" duration="19628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4872000" />
+    <option name="totallyTimeSpent" value="19628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,7 +489,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20476706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -487,49 +556,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.css">
+    <entry file="file://$PROJECT_DIR$/../Employees/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Employees/client/components/employee_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blogapp2/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#40#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#40#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,16 +589,155 @@
         <state relative-caret-position="300">
           <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
           <folding>
+            <element signature="e#40#79#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#40#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blogapp2/src/components/posts_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blogapp2/src/components/posts_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#40#79#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
             <element signature="e#40#79#0" expanded="true" />
+            <marker date="1499733790801" expanded="true" signature="484:911" ph="..." />
+            <marker date="1499733790801" expanded="true" signature="528:616" ph="..." />
+            <marker date="1499733790801" expanded="true" signature="661:895" ph="..." />
+            <marker date="1499733790801" expanded="true" signature="683:746" ph="..." />
+            <marker date="1499733790801" expanded="true" signature="768:876" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#40#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-codemirror/lib/Codemirror.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/bins/bins_share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/bins/bins_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+            <marker date="1499739315670" expanded="true" signature="607:802" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/bins/bins_viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/bins/bins_editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/bins/bins_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/collections/bins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
